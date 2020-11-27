@@ -8,6 +8,7 @@ module.exports = {
   website: "http://www.kidbright.club",
   email: "info@makerasia.com",
   git: "https://github.com/woodif/kb32-ft/",
-  image: "/static/display.JPG",
+  image: "/static/display.jpg",
   version: "1.0.0",
+  recommended: "ilovekbide",
 };
