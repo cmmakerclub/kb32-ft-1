@@ -1,29 +1,33 @@
-C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\build\ff-ff-ff-ff-ff-ff\user_app.o: \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\build\ff-ff-ff-ff-ff-ff\user_app.cpp \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/Arduino.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/stdint.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/machine/_default_types.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/sys/features.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/sys/_intsup.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/stdio.h \
+C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\build\ff-ff-ff-ff-ff-ff\user_app.o: \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\build\ff-ff-ff-ff-ff-ff\user_app.cpp \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\libraries_include/SPI.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/stdlib.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/machine/ieeefp.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/_ansi.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/newlib.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/sys/config.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/machine/ieeefp.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/sys/features.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\esp32/xtensa/config/core-isa.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/sys/cdefs.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/sys/reent.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/_ansi.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/sys/_types.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/machine/_types.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/machine/_default_types.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/sys/lock.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/sys/cdefs.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/machine/stdlib.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/alloca.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/pins_arduino.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/stdint.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/sys/_intsup.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/esp32-hal-spi.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/TFT_eSPI.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/Arduino.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/stdio.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/sys/types.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/machine/types.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/sys/sched.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/sys/stdio.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/stdlib.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/machine/stdlib.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/alloca.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/string.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/sys/string.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/inttypes.h \
@@ -127,148 +131,84 @@ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\build\ff-ff-ff-ff-ff-ff\u
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/IPAddress.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/HardwareSerial.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/Esp.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/pins_arduino.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\libraries_include/WiFi.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/User_Setup_Select.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/User_Setup.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/TFT_Drivers/ST7735_Defines.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/glcdfont.c \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/Font16.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/Font16.c \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/Font32rle.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/Font32rle.c \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/Font64rle.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/Font64rle.c \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/Font7srle.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/Font7srle.c \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/Font72rle.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/Font72rle.c \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/Print.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/IPv6Address.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\libraries_include/WiFiType.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\libraries_include/WiFiSTA.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\libraries_include/WiFiGeneric.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\esp32/esp_event_loop.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\inc/esp_event.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\inc/freertos/FreeRTOS.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\inc/freertos/task.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\inc/freertos/queue.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\inc/freertos/semphr.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\inc/esp_event_base.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\esp32/esp_event_legacy.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\esp32/esp_wifi_types.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\esp32/rom/queue.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\esp32/esp_interface.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\inc/tcpip_adapter.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\esp32/rom/queue.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\esp32/esp_wifi_types.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\lwip/lwip/ip_addr.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\lwip/lwip/opt.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\lwip/lwipopts.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/sys/time.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/sys/fcntl.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/sys/_default_fcntl.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/sys/stat.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\inc/sys/ioctl.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/sys/select.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\esp32/esp_task.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\inc/freertos/FreeRTOSConfig.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\lwip/netif/dhcp_state.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\lwip/lwip/debug.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\lwip/lwip/arch.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\lwip/arch/cc.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/errno.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/sys/errno.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\lwip/arch/sys_arch.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\inc/freertos/queue.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\lwip/arch/vfs_lwip.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\lwip/lwip/def.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\lwip/lwip/ip4_addr.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\lwip/lwip/ip6_addr.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\lwip/lwip/def.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\lwip/dhcpserver/dhcpserver.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\libraries_include/WiFiAP.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\libraries_include/WiFiScan.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\libraries_include/WiFiClient.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/Client.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\libraries_include/WiFiServer.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/Server.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\libraries_include/WiFiUdp.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/Udp.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/cbuf.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\libraries_include/Wire.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/esp32-hal.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\libraries_include/SPI.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/esp32-hal-spi.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Adafruit_GFX.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/gfxfont.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Adafruit_LEDBackpack.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Adafruit_GFX.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/KB_initBoard.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/pins_arduino.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/KB_music.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/KB_LDR.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/KB_LM73.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/KB_ht16k33.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Adafruit_LEDBackpack.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/MCP7941x.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/TFT_eSPI.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/User_Setup_Select.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/User_Setup.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/TFT_Drivers/ST7735_Defines.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/glcdfont.c \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/Font16.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/Font16.c \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/Font32rle.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/Font32rle.c \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/Font64rle.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/Font64rle.c \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/Font7srle.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/Font7srle.c \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/Font72rle.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/Font72rle.c \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\libraries_include/FS.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\libraries_include/SPIFFS.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\libraries_include/FS.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/gfxfont.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/User_Custom_Fonts.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/Custom/Orbitron_Light_24.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/Custom/Orbitron_Light_32.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/Custom/Roboto_Thin_24.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/Custom/Satisfy_24.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/Custom/Yellowtail_32.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/TomThumb.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeMono9pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeMono12pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeMono18pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeMono24pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeMonoOblique9pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeMonoOblique12pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeMonoOblique18pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeMonoOblique24pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeMonoBold9pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeMonoBold12pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeMonoBold18pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeMonoBold24pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeMonoBoldOblique9pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeMonoBoldOblique12pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeMonoBoldOblique18pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeMonoBoldOblique24pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSans9pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSans12pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSans18pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSans24pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSansOblique9pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSansOblique12pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSansOblique18pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSansOblique24pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSansBold9pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSansBold12pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSansBold18pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSansBold24pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSansBoldOblique9pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSansBoldOblique12pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSansBoldOblique18pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSansBoldOblique24pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSerif9pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSerif12pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSerif18pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSerif24pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSerifItalic9pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSerifItalic12pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSerifItalic18pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSerifItalic24pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSerifBold9pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSerifBold12pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSerifBold18pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSerifBold24pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSerifBoldItalic9pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSerifBoldItalic12pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSerifBoldItalic18pt7b.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Fonts/GFXFF/FreeSerifBoldItalic24pt7b.h
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/gfxfont.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/User_Custom_Fonts.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/Custom/Orbitron_Light_24.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/Custom/Orbitron_Light_32.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/Custom/Roboto_Thin_24.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/Custom/Satisfy_24.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/Custom/Yellowtail_32.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/Custom/Kanit-Regular-9-en.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/Custom/Kanit-Regular-9-th.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/TomThumb.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeMono9pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeMono12pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeMono18pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeMono24pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeMonoOblique9pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeMonoOblique12pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeMonoOblique18pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeMonoOblique24pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeMonoBold9pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeMonoBold12pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeMonoBold18pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeMonoBold24pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeMonoBoldOblique9pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeMonoBoldOblique12pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeMonoBoldOblique18pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeMonoBoldOblique24pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSans9pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSans12pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSans18pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSans24pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSansOblique9pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSansOblique12pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSansOblique18pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSansOblique24pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSansBold9pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSansBold12pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSansBold18pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSansBold24pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSansBoldOblique9pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSansBoldOblique12pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSansBoldOblique18pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSansBoldOblique24pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSerif9pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSerif12pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSerif18pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSerif24pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSerifItalic9pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSerifItalic12pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSerifItalic18pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSerifItalic24pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSerifBold9pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSerifBold12pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSerifBold18pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSerifBold24pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSerifBoldItalic9pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSerifBoldItalic12pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSerifBoldItalic18pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/FreeSerifBoldItalic24pt7b.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\libraries_include/Wire.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/esp32-hal.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\inc/freertos/queue.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Free_Fonts.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Fonts/GFXFF/THSarabun14pt7b.h
