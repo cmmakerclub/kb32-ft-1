@@ -30,7 +30,7 @@ module.exports = function (Blockly) {
   Wire.beginTransmission(0x70);delayMicroseconds(1);Wire.write(0x01);
   Wire.write((${ value_mode1 }));Wire.endTransmission();delay(100);
 
-  tft.init();tft.setRotation(1);tft.invertDisplay(1);tft.fillScreen(TFT_BLACK);delay(100);
+  tft.begin();tft.setRotation(1);tft.invertDisplay(1);tft.fillScreen(TFT_BLACK);delay(100);
 
   Wire.beginTransmission(0x70);delayMicroseconds(1);Wire.write(0xEF);Wire.endTransmission();delay(30);
   `;
@@ -125,6 +125,11 @@ module.exports = function (Blockly) {
     return code;
   };
 
+	Blockly.JavaScript['basic_TFT_setFonts'] = function (block) {
+		var code = 'tft.setUTF8Font(CF_KN_' + block.getFieldValue('sText') + '_EN, CF_KN_' + block.getFieldValue('sText') + '_TH, NULL);';
+		return code;
+	};
+	
   Blockly.JavaScript["tft_display_setTextSize"] = function (block) {
     var code = "tft.setTextSize(" + block.getFieldValue("textSize") + ");\n";
     return code;
@@ -156,33 +161,34 @@ module.exports = function (Blockly) {
 
     var code =
       `
+  //tft.setTextFont(GLCD);
   tft.setTextSize(${ value_textSize });
   tft.setCursor(${ value_x }, ${ value_y });
   tft.setTextColor(0x${ value_color });
-  tft.println(String(${ value_text }));
+  tft.println(${ value_text });
   `;
     return code;
   };
   // ######################################################################
 
-  Blockly.JavaScript["i2c128x64_display_print"] = function (block) {
-    var value_text = Blockly.JavaScript.valueToCode(block,
-      "text",
-      Blockly.JavaScript.ORDER_ATOMIC);
-    var value_x = Blockly.JavaScript.valueToCode(block,
-      "x",
-      Blockly.JavaScript.ORDER_ATOMIC);
-    var value_y = Blockly.JavaScript.valueToCode(block,
-      "y",
-      Blockly.JavaScript.ORDER_ATOMIC);
-    var dropdown_font = block.getFieldValue("font");
-    var code =
-      `
-  display.setFont(${ dropdown_font });
-  display.drawString(${ value_x }, ${ value_y }, String(${ value_text }));
-  `;
-    return code;
-  };
+	Blockly.JavaScript['basic_TFT_print_TH'] = function (block) {
+		var value_x = Blockly.JavaScript.valueToCode(block, 'X', Blockly.JavaScript.ORDER_ATOMIC);
+		var value_y = Blockly.JavaScript.valueToCode(block, 'Y', Blockly.JavaScript.ORDER_ATOMIC);
+		var value_text = Blockly.JavaScript.valueToCode(block, 'TEXT', Blockly.JavaScript.ORDER_ATOMIC);
+		var value_tColor = block.getFieldValue('tColor');
+		var value_bColor = block.getFieldValue('bColor');
+		var value_fonts = block.getFieldValue('sText');
+
+		var text_color = rgbto16bit(value_tColor);
+		var background_color = rgbto16bit(value_bColor);
+		var code =
+			`
+  tft.setUTF8Font(CF_KN_${value_fonts}_EN, CF_KN_${value_fonts}_TH, NULL);
+  tft.setTextColor(0x${text_color}, 0x${background_color});
+  tft.drawUTF8String(${value_text}, ${value_x}, ${value_y}, GFXFF);
+	`;
+		return code;
+	};
 
   Blockly.JavaScript["tft_display_draw_line"] = function (block) {
     var value_x0 = Blockly.JavaScript.valueToCode(block,

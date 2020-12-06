@@ -3,7 +3,7 @@
 #include <WiFi.h>
 #include <Wire.h>
 #include "SPI.h"
-#include "Adafruit_GFX.h"
+#include "Adafruit_GFX.h" //for matrix led
 #include "Adafruit_LEDBackpack.h"
 
 ${EXTINC}
@@ -14,7 +14,8 @@ ${EXTINC}
 #include "KB_LM73.h"
 #include "KB_ht16k33.h"
 #include "MCP7941x.h"
-#include <TFT_eSPI.h>
+
+#include "TFT_eSPI.h" //for matrix led
 
 TFT_eSPI tft = TFT_eSPI();
 MCP7941x rtc = MCP7941x();

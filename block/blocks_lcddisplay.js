@@ -193,7 +193,7 @@ module.exports = function (Blockly) {
             ["Normal", "1"],
             ["Rotate 90°", "2"],
             ["Rotate 180°", "3"],
-            ["Rotate 360°", "4"]
+            ["Rotate 360°", "0"]
           ]),
             "rotation");
         this.setPreviousStatement(true, null);
@@ -218,6 +218,36 @@ module.exports = function (Blockly) {
       }
     };
 
+	Blockly.Blocks['basic_TFT_setFonts'] = {
+		init: function () {
+			this.appendDummyInput()
+				.appendField("TFT Fonts:")
+				.appendField(new Blockly.FieldDropdown([
+					["Kanit-Regular-9", "R_09"],
+					["Kanit-Regular-12", "R_12"],
+					["Kanit-Regular-18", "R_18"],
+					["Kanit-Regular-24", "R_24"],
+					["Kanit-Bold-9", "B_09"],
+					["Kanit-Bold-12", "B_12"],
+					["Kanit-Bold-18", "B_18"],
+					["Kanit-Bold-24", "B_24"],
+					["Kanit-Bold Italic-9", "BI_09"],
+					["Kanit-Bold Italic-12", "BI_12"],
+					["Kanit-Bold Italic-18", "BI_18"],
+					["Kanit-Bold Italic-24", "BI_24"],
+					["Kanit-Italic-9", "I_09"],
+					["Kanit-Italic-12", "I_12"],
+					["Kanit-Italic-18", "I_18"],
+					["Kanit-Italic-24", "I_24"]
+        ]),	"sText");
+			this.setPreviousStatement(true, null);
+			this.setNextStatement(true, null);
+			this.setColour(160);
+			this.setTooltip("");
+			this.setHelpUrl("");
+		}
+	};
+	
     Blockly.Blocks["tft_display_setTextSize"] = {
       init: function () {
         this.appendDummyInput()
@@ -277,37 +307,52 @@ module.exports = function (Blockly) {
       }
     };
 
-    Blockly.Blocks["i2c128x64_display_print"] = {
-      init: function () {
-        this.appendValueInput("text")
-          // .appendField(new Blockly.FieldImage("https://www.flaticon.com/premium-icon/icons/svg/1163/1163412.svg", 20, 20, "*"))
-          .setCheck("String")
-          .appendField("display text");
-        this.appendValueInput("x")
-          .setCheck("Number")
-          .appendField("at (X");
-        this.appendValueInput("y")
-          .setCheck("Number")
-          .appendField(", Y");
-        this.appendDummyInput()
-          .appendField(")  font")
-          .appendField(new Blockly.FieldDropdown([
-            [
-              "Arial_MT_10pt",
-              "ArialMT_Plain_10"
-            ],
-            ["Arial_MT_16pt", "ArialMT_Plain_16"],
-            ["Arial_MT_24pt", "ArialMT_Plain_24"]
-          ]), "font");
-        this.setInputsInline(true);
-        this.setPreviousStatement(true, null);
-        this.setNextStatement(true, null);
-        this.setColour(230);
-        this.setTooltip("display string at x,y");
-        this.setHelpUrl("");
-      }
-    };
-
+	Blockly.Blocks['basic_TFT_print_TH'] = {
+		init: function () {
+			this.appendDummyInput()
+				.appendField("TFT print fonts Thai x:")
+			this.appendValueInput('X')
+				.setCheck("Number")
+			this.appendDummyInput()
+				.appendField("y:")
+			this.appendValueInput('Y')
+				.setCheck("Number")
+			this.appendValueInput('TEXT')
+				.appendField("message:")
+				.setCheck("String")
+			this.appendDummyInput()
+				.appendField("fonts:")
+				.appendField(new Blockly.FieldDropdown([
+					["Kanit-Regular-9", "R_09"],
+					["Kanit-Regular-12", "R_12"],
+					["Kanit-Regular-18", "R_18"],
+					["Kanit-Regular-24", "R_24"],
+					["Kanit-Bold-9", "B_09"],
+					["Kanit-Bold-12", "B_12"],
+					["Kanit-Bold-18", "B_18"],
+					["Kanit-Bold-24", "B_24"],
+					["Kanit-Bold Italic-9", "BI_09"],
+					["Kanit-Bold Italic-12", "BI_12"],
+					["Kanit-Bold Italic-18", "BI_18"],
+					["Kanit-Bold Italic-24", "BI_24"],
+					["Kanit-Italic-9", "I_09"],
+					["Kanit-Italic-12", "I_12"],
+					["Kanit-Italic-18", "I_18"],
+					["Kanit-Italic-24", "I_24"]
+        ]), "sText")
+				.appendField("Text Color:")
+				.appendField(new Blockly.FieldColour('#ffffff'), 'tColor')
+				.appendField("Background Color:")
+				.appendField(new Blockly.FieldColour('#000000'), 'bColor');
+			this.setInputsInline(true);
+			this.setPreviousStatement(true, null);
+			this.setNextStatement(true, null);
+			this.setColour(160);
+			this.setTooltip("display thai fonts");
+			this.setHelpUrl("");
+		}
+	};
+	
     Blockly.Blocks["tft_display_draw_line"] = {
       init: function () {
         this.appendValueInput("x0")

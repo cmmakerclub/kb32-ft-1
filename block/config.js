@@ -215,9 +215,30 @@ module.exports = {
         },
         "tft_display_setRotation",
         "tft_display_fillScreen",
+		'basic_TFT_setFonts',
         {
           xml:
             `<block type="tft_display_print">
+                            <value name="TEXT">
+                                <shadow type="basic_string">
+                                    <field name="VALUE">Hello world!</field>
+                                </shadow>
+                            </value>
+                            <value name="X">
+                                <shadow type="math_number">
+                                    <field name="NUM">0</field>
+                                </shadow>
+                            </value>
+                            <value name="Y">
+                                <shadow type="math_number">
+                                    <field name="NUM">0</field>
+                                </shadow>
+                            </value>
+                        </block>`
+        },
+    		{
+          xml:
+            `<block type='basic_TFT_print_TH'>
                             <value name="TEXT">
                                 <shadow type="basic_string">
                                     <field name="VALUE">Hello world!</field>
