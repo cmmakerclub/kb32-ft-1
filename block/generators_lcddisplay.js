@@ -125,7 +125,7 @@ module.exports = function (Blockly) {
     return code;
   };
 
-	Blockly.JavaScript['basic_TFT_setFonts'] = function (block) {
+	Blockly.JavaScript["basic_TFT_setFonts"] = function (block) {
 		var code = 'tft.setUTF8Font(CF_KN_' + block.getFieldValue('sText') + '_EN, CF_KN_' + block.getFieldValue('sText') + '_TH, NULL);';
 		return code;
 	};
@@ -171,7 +171,7 @@ module.exports = function (Blockly) {
   };
   // ######################################################################
 
-	Blockly.JavaScript['basic_TFT_print_TH'] = function (block) {
+	Blockly.JavaScript["basic_TFT_print_TH"] = function (block) {
 		var value_x = Blockly.JavaScript.valueToCode(block, 'X', Blockly.JavaScript.ORDER_ATOMIC);
 		var value_y = Blockly.JavaScript.valueToCode(block, 'Y', Blockly.JavaScript.ORDER_ATOMIC);
 		var value_text = Blockly.JavaScript.valueToCode(block, 'TEXT', Blockly.JavaScript.ORDER_ATOMIC);

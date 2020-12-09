@@ -218,7 +218,7 @@ module.exports = function (Blockly) {
       }
     };
 
-	Blockly.Blocks['basic_TFT_setFonts'] = {
+	Blockly.Blocks["basic_TFT_setFonts"] = {
 		init: function () {
 			this.appendDummyInput()
 				.appendField("TFT Fonts:")
@@ -307,17 +307,17 @@ module.exports = function (Blockly) {
       }
     };
 
-	Blockly.Blocks['basic_TFT_print_TH'] = {
+	Blockly.Blocks["basic_TFT_print_TH"] = {
 		init: function () {
 			this.appendDummyInput()
 				.appendField("TFT print fonts Thai x:")
-			this.appendValueInput('X')
+			this.appendValueInput("X")
 				.setCheck("Number")
 			this.appendDummyInput()
 				.appendField("y:")
-			this.appendValueInput('Y')
+			this.appendValueInput("Y")
 				.setCheck("Number")
-			this.appendValueInput('TEXT')
+			this.appendValueInput("TEXT")
 				.appendField("message:")
 				.setCheck("String")
 			this.appendDummyInput()
@@ -341,9 +341,9 @@ module.exports = function (Blockly) {
 					["Kanit-Italic-24", "I_24"]
         ]), "sText")
 				.appendField("Text Color:")
-				.appendField(new Blockly.FieldColour('#ffffff'), 'tColor')
+				.appendField(new Blockly.FieldColour("#ffffff"), "tColor")
 				.appendField("Background Color:")
-				.appendField(new Blockly.FieldColour('#000000'), 'bColor');
+				.appendField(new Blockly.FieldColour("#000000"), "bColor");
 			this.setInputsInline(true);
 			this.setPreviousStatement(true, null);
 			this.setNextStatement(true, null);
