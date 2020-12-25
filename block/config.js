@@ -215,7 +215,7 @@ module.exports = {
         },
         "tft_display_setRotation",
         "tft_display_fillScreen",
-		'basic_TFT_setFonts',
+        'basic_TFT_setFonts',
         {
           xml:
             `<block type="tft_display_print">
@@ -236,7 +236,7 @@ module.exports = {
                             </value>
                         </block>`
         },
-    		{
+        {
           xml:
             `<block type='basic_TFT_print_TH'>
                             <value name="TEXT">
@@ -347,6 +347,31 @@ module.exports = {
         "basic_string"
       ]
     },
+
+    {
+      name: "MPU6050",
+      color: "58",
+      icon: `file:///${dirIcon}/static/icons/MPU6050.png`,
+      blocks: [
+        {
+          xml: `<sep gap="32"></sep><label text="Accelerometer (mg)" web-class="headline"></label>`
+        },
+        "sensor_accmpu6050",
+        {
+          xml: `<sep gap="32"></sep><label text="Gyroscope (°/s)" web-class="headline"></label>`
+        },
+        "sensor_gyrompu6050",
+        {
+          xml: `<sep gap="32"></sep><label text="Temperature (°C)" web-class="headline"></label>`
+        },
+        "sensor_tempmpu6050",
+        {
+          xml: `<sep gap="32"></sep><label text="Angle of Rotation (°)" web-class="headline"></label>`
+        },
+        "sensor_kalAngle",
+      ]
+    },
+
     {
       name: "Sensor",
       color: "58",
@@ -360,8 +385,12 @@ module.exports = {
         "sensor_switch1",
         "sensor_switch2",
         {
-          xml: `<sep gap="32"></sep><label text="KB32-FT Sensor" web-class="headline"></label>`
+          xml: `<sep gap="32"></sep><label text="Ambient Light Sensor" web-class="headline"></label>`
         },
+        "sensor_lux",
+        "sensor_luxhighgain",
+        "sensor_luxlowgain",
+
       ]
     },
     {

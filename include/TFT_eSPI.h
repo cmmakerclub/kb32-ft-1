@@ -765,8 +765,9 @@ const PROGMEM fontinfo fontdata[] = {
 // Class functions and variables
 class TFT_eSPI : public Print
 {
-
 public:
+  void setmode(uint8_t mode);
+
   TFT_eSPI(int16_t _W = TFT_WIDTH, int16_t _H = TFT_HEIGHT);
 
   void init(uint8_t tc = TAB_COLOUR), begin(uint8_t tc = TAB_COLOUR); // Same - begin included for backwards compatibility

@@ -15,6 +15,7 @@
 #define _pin_delay delayMicroseconds(6)
 
 #include <Arduino.h>
+#include <Wire.h>
 #include "TFT_eSPI.h"
 
 #if defined(ESP32)
@@ -195,6 +196,45 @@ inline void TFT_eSPI::spi_end_touch(void)
 #endif
 
 /***************************************************************************************
+** Function name:           begin
+** Description:             Included for backwards compatibility
+***************************************************************************************/
+void TFT_eSPI::setmode(uint8_t mode)
+{
+  if (mode == 0)
+  {
+    //Wire.begin();
+    Wire.beginTransmission(0x70);
+    delayMicroseconds(1);
+    Wire.write(0x01);
+    Wire.write(0x00);
+    Wire.endTransmission();
+    delay(100);
+    Serial.println("LED Matrix Mode --> Start");
+  }
+  if (mode == 1)
+  {
+    //Wire.begin();
+    Wire.beginTransmission(0x70);
+    delayMicroseconds(1);
+    Wire.write(0x01);
+    Wire.write(0x01);
+    Wire.endTransmission();
+    delay(100);
+    begin();
+    setRotation(1);
+    invertDisplay(1);
+    fillScreen(TFT_BLACK);
+    delay(1);
+    Wire.beginTransmission(0x70);
+    delayMicroseconds(1);
+    Wire.write(0xEF);
+    Wire.endTransmission();
+    Serial.println("LCD Display Mode --> Start");
+  }
+}
+
+/***************************************************************************************
 ** Function name:           TFT_eSPI
 ** Description:             Constructor , we must use hardware SPI pins
 ***************************************************************************************/
@@ -286,7 +326,7 @@ TFT_eSPI::TFT_eSPI(int16_t w, int16_t h)
 
   //_swapBytes = false; // Do not swap colour bytes by default
   _swapBytes = true; // Do not swap colour bytes by default
-  
+
   locked = true; // ESP32 transaction mutex lock flags
   inTransaction = false;
 
@@ -4892,7 +4932,7 @@ size_t TFT_eSPI::write(uint8_t utf8)
       cursor_x += pgm_read_byte(&glyph->xAdvance) * (int16_t)textsize;
     }
   }
-#endif // LOAD_GFXFF
+#endif // LOAD_GFXFF \
        //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
   return 1;

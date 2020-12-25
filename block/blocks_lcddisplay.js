@@ -46,8 +46,8 @@ module.exports = function (Blockly) {
         // .appendField(new Blockly.FieldImage("https://www.flaticon.com/premium-icon/icons/svg/1163/1163412.svg", 20, 20, "*"))
         .appendField("display SelectMode")
         .appendField(new Blockly.FieldDropdown([
-          ["LED Matrix", "0x00"],
-          ["LCD Display", "0x01"],
+          ["LED Matrix", "0"],
+          ["LCD Display", "1"],
         ]),
           "value_mode0");
       this.setPreviousStatement(true, null);
@@ -64,8 +64,8 @@ module.exports = function (Blockly) {
           // .appendField(new Blockly.FieldImage("https://www.flaticon.com/premium-icon/icons/svg/1163/1163412.svg", 20, 20, "*"))
           .appendField("display SelectMode")
           .appendField(new Blockly.FieldDropdown([
-            ["LCD Display", "0x01"],
-            ["LED Matrix", "0x00"]
+            ["LCD Display", "1"],
+            ["LED Matrix", "0"]
           ]),
             "value_mode1");
         this.setPreviousStatement(true, null);
@@ -275,7 +275,7 @@ module.exports = function (Blockly) {
       init: function () {
         this.appendValueInput("TEXT")
           // .appendField(new Blockly.FieldImage("https://www.flaticon.com/premium-icon/icons/svg/1163/1163412.svg", 20, 20, "*"))
-          .setCheck("String")
+          //.setCheck("String")
           .appendField("display text");
         this.appendValueInput("X")
           .setCheck("Number")

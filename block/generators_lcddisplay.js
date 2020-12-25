@@ -10,30 +10,12 @@ module.exports = function (Blockly) {
   "use strict";
 
   Blockly.JavaScript["tft_display_selectMode0"] = function (block) {
-    var value_mode0 = block.getFieldValue("value_mode0");
-    var code =
-      `
-  Wire.beginTransmission(0x70);delayMicroseconds(1);Wire.write(0x01);
-  Wire.write((${ value_mode0 }));Wire.endTransmission();delay(100);
-
-  tft.init();tft.setRotation(1);tft.invertDisplay(1);tft.fillScreen(TFT_BLACK);delay(100);
-
-  Wire.beginTransmission(0x70);delayMicroseconds(1);Wire.write(0xEF);Wire.endTransmission();delay(30);
-  `;
+    var code ="tft.setmode(" + block.getFieldValue("value_mode0") + ");\n";
     return code;
   };
 
   Blockly.JavaScript["tft_display_selectMode1"] = function (block) {
-    var value_mode1 = block.getFieldValue("value_mode1");
-    var code =
-      `
-  Wire.beginTransmission(0x70);delayMicroseconds(1);Wire.write(0x01);
-  Wire.write((${ value_mode1 }));Wire.endTransmission();delay(100);
-
-  tft.begin();tft.setRotation(1);tft.invertDisplay(1);tft.fillScreen(TFT_BLACK);delay(100);
-
-  Wire.beginTransmission(0x70);delayMicroseconds(1);Wire.write(0xEF);Wire.endTransmission();delay(30);
-  `;
+    var code ="tft.setmode(" + block.getFieldValue("value_mode1") + ");\n";
     return code;
   };
 

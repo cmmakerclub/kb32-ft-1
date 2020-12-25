@@ -3,10 +3,8 @@
 #include <WiFi.h>
 #include <Wire.h>
 #include "SPI.h"
-#include "Adafruit_GFX.h" //for matrix led
+#include "Adafruit_GFX.h"  //for matrix led
 #include "Adafruit_LEDBackpack.h"
-
-${EXTINC}
 
 #include "KB_initBoard.h"
 #include "KB_music.h"
@@ -15,7 +13,7 @@ ${EXTINC}
 #include "KB_ht16k33.h"
 #include "MCP7941x.h"
 #include "Kalman.h"
-#include "TFT_eSPI.h" //for matrix led
+#include "TFT_eSPI.h"  //for matrix led
 
 TFT_eSPI tft = TFT_eSPI();
 MCP7941x rtc = MCP7941x();
@@ -30,24 +28,32 @@ typedef int Number;
 typedef int Boolean;
 using namespace std;
 
-${VARIABLE}
+Number a;
 
-${FUNCTION}
-
-
-void setup()
-{
+void setup() {
   board.begin();
   music.begin();
   lm73.begin();
   matrix.displayBegin();
   ldr.begin();
   mpu.begin();
-  ${SETUP_CODE}
-  ${BLOCKSETUP}
+
+  Serial.begin(115200);
+  tft.setmode(1);
+  tft.fillScreen(0x0);
 }
-void loop()
-{
-  ${LOOP_CODE}
-  ${LOOP_EXT_CODE}
+void loop() {
+  // tft.setTextFont(GLCD);
+  tft.setTextSize(5);
+  tft.setCursor(0, 0);
+  tft.setTextColor(0x0);
+  tft.println(a);
+  a = ldr.LuxHighGain();
+  // tft.setTextFont(GLCD);
+  tft.setTextSize(5);
+  tft.setCursor(0, 0);
+  tft.setTextColor(0xf800);
+  tft.println(a);
+  Serial.println(a);
+  delay(20);
 }
