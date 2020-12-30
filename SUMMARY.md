@@ -12,8 +12,3 @@
   * [ติดตั้ง Library Arduino IDE](getstart/arduino-ide/library-arduino-ide.md)
   * [การติดตั้งไดร์เวอร์ FTDI \(USB\)](getstart/arduino-ide/ftdi-usb.md)
 
----
-
-* [Untitled](untitled.md)
-* [Untitled](untitled-1.md)
-
