@@ -323,22 +323,28 @@ module.exports = function (Blockly) {
 			this.appendDummyInput()
 				.appendField("fonts:")
 				.appendField(new Blockly.FieldDropdown([
-					["Kanit-Regular-9", "R_09"],
-					["Kanit-Regular-12", "R_12"],
-					["Kanit-Regular-18", "R_18"],
-					["Kanit-Regular-24", "R_24"],
-					["Kanit-Bold-9", "B_09"],
-					["Kanit-Bold-12", "B_12"],
-					["Kanit-Bold-18", "B_18"],
-					["Kanit-Bold-24", "B_24"],
-					["Kanit-Bold Italic-9", "BI_09"],
-					["Kanit-Bold Italic-12", "BI_12"],
-					["Kanit-Bold Italic-18", "BI_18"],
-					["Kanit-Bold Italic-24", "BI_24"],
-					["Kanit-Italic-9", "I_09"],
-					["Kanit-Italic-12", "I_12"],
-					["Kanit-Italic-18", "I_18"],
-					["Kanit-Italic-24", "I_24"]
+					["Kanit-Regular-9", "KN_R_09"],
+					["Kanit-Regular-12", "KN_R_12"],
+					["Kanit-Regular-18", "KN_R_18"],
+					["Kanit-Regular-24", "KN_R_24"],
+					["Kanit-Bold-9", "KN_B_09"],
+					["Kanit-Bold-12", "KN_B_12"],
+					["Kanit-Bold-18", "KN_B_18"],
+					["Kanit-Bold-24", "KN_B_24"],
+					["THSarabunNew-Regular-8", "TH_R_08"],
+					["THSarabunNew-Regular-9", "TH_R_09"],
+					["THSarabunNew-Regular-10", "TH_R_10"],
+          ["THSarabunNew-Regular-12", "TH_R_12"],
+          ["THSarabunNew-Regular-14", "TH_R_14"],
+          ["THSarabunNew-Regular-16", "TH_R_16"],
+          ["THSarabunNew-Regular-18", "TH_R_18"],
+					["THSarabunNew-Bold-8", "TH_B_8"],
+					["THSarabunNew-Bold-9", "TH_B_9"],
+					["THSarabunNew-Bold-10", "TH_B_10"],
+          ["THSarabunNew-Bold-12", "TH_B_12"],
+          ["THSarabunNew-Bold-14", "TH_B_14"],
+          ["THSarabunNew-Bold-16", "TH_B_16"],
+          ["THSarabunNew-Bold-18", "TH_B_18"]
         ]), "sText")
 				.appendField("Text Color:")
 				.appendField(new Blockly.FieldColour('#ffffff'), 'tColor')

@@ -155,7 +155,7 @@ void loop() {
     tft.setTextColor(0x0, 0x0);
     tft.drawUTF8String(String("          "), 60, 20, GFXFF);
     tft.setTextColor(0xfb20, 0x0);
-    tft.drawUTF8String(String(String(ldr.mapLDR())), 60, 20, GFXFF);
+    tft.drawUTF8String(String(String(ldr.mapLDRinvert())), 60, 20, GFXFF);
     tft.setTextColor(0x0, 0x0);
     tft.drawUTF8String(String("          "), 80, 40, GFXFF);
     tft.setTextColor(0xffe0, 0x0);

@@ -27,7 +27,38 @@
 #include <Fonts/Custom/Satisfy_24.h>        // CF_S24
 #include <Fonts/Custom/Yellowtail_32.h>     // CF_Y32
 
-#include "Fonts/Custom/THSarabun-14-th.h"
+//#include "Fonts/Custom/THSarabun-14-th.h"
+
+#include "Fonts/Custom/THSarabunNew8pt7b.h"
+#include "Fonts/Custom/THSarabunNew9pt7b.h"
+#include "Fonts/Custom/THSarabunNew10pt7b.h"
+#include "Fonts/Custom/THSarabunNew12pt7b.h"
+#include "Fonts/Custom/THSarabunNew14pt7b.h"
+#include "Fonts/Custom/THSarabunNew16pt7b.h"
+#include "Fonts/Custom/THSarabunNew18pt7b.h"
+#include "Fonts/Custom/ENSarabunNew8pt7b.h"
+#include "Fonts/Custom/ENSarabunNew9pt7b.h"
+#include "Fonts/Custom/ENSarabunNew10pt7b.h"
+#include "Fonts/Custom/ENSarabunNew12pt7b.h"
+#include "Fonts/Custom/ENSarabunNew14pt7b.h"
+#include "Fonts/Custom/ENSarabunNew16pt7b.h"
+#include "Fonts/Custom/ENSarabunNew18pt7b.h"
+
+#include "Fonts/Custom/THSarabunNewBold8pt7b.h"
+#include "Fonts/Custom/THSarabunNewBold9pt7b.h"
+#include "Fonts/Custom/THSarabunNewBold10pt7b.h"
+#include "Fonts/Custom/THSarabunNewBold12pt7b.h"
+#include "Fonts/Custom/THSarabunNewBold14pt7b.h"
+#include "Fonts/Custom/THSarabunNewBold16pt7b.h"
+#include "Fonts/Custom/THSarabunNewBold18pt7b.h"
+#include "Fonts/Custom/ENSarabunNewBold8pt7b.h"
+#include "Fonts/Custom/ENSarabunNewBold9pt7b.h"
+#include "Fonts/Custom/ENSarabunNewBold10pt7b.h"
+#include "Fonts/Custom/ENSarabunNewBold12pt7b.h"
+#include "Fonts/Custom/ENSarabunNewBold14pt7b.h"
+#include "Fonts/Custom/ENSarabunNewBold16pt7b.h"
+#include "Fonts/Custom/ENSarabunNewBold18pt7b.h"
+
 #include "Fonts/Custom/Kanit-Regular-9-en.h"
 #include "Fonts/Custom/Kanit-Regular-12-en.h"
 #include "Fonts/Custom/Kanit-Regular-18-en.h"
@@ -43,30 +74,30 @@
 #include "Fonts/Custom/Kanit-Bold-18-en.h"
 #include "Fonts/Custom/Kanit-Bold-24-en.h"
 
-#include "Fonts/Custom/Kanit-Italic-9-en.h"
-#include "Fonts/Custom/Kanit-Italic-12-en.h"
-#include "Fonts/Custom/Kanit-Italic-18-en.h"
-#include "Fonts/Custom/Kanit-Italic-24-en.h"
-
-#include "Fonts/Custom/Kanit-BoldItalic-9-en.h"
-#include "Fonts/Custom/Kanit-BoldItalic-12-en.h"
-#include "Fonts/Custom/Kanit-BoldItalic-18-en.h"
-#include "Fonts/Custom/Kanit-BoldItalic-24-en.h"
-
 #include "Fonts/Custom/Kanit-Bold-9-th.h"
 #include "Fonts/Custom/Kanit-Bold-12-th.h"
 #include "Fonts/Custom/Kanit-Bold-18-th.h"
 #include "Fonts/Custom/Kanit-Bold-24-th.h"
 
-#include "Fonts/Custom/Kanit-Italic-9-th.h"
-#include "Fonts/Custom/Kanit-Italic-12-th.h"
-#include "Fonts/Custom/Kanit-Italic-18-th.h"
-#include "Fonts/Custom/Kanit-Italic-24-th.h"
+// #include "Fonts/Custom/Kanit-Italic-9-en.h"
+// #include "Fonts/Custom/Kanit-Italic-12-en.h"
+// #include "Fonts/Custom/Kanit-Italic-18-en.h"
+// #include "Fonts/Custom/Kanit-Italic-24-en.h"
 
-#include "Fonts/Custom/Kanit-BoldItalic-9-th.h"
-#include "Fonts/Custom/Kanit-BoldItalic-12-th.h"
-#include "Fonts/Custom/Kanit-BoldItalic-18-th.h"
-#include "Fonts/Custom/Kanit-BoldItalic-24-th.h"
+// #include "Fonts/Custom/Kanit-Italic-9-th.h"
+// #include "Fonts/Custom/Kanit-Italic-12-th.h"
+// #include "Fonts/Custom/Kanit-Italic-18-th.h"
+// #include "Fonts/Custom/Kanit-Italic-24-th.h"
+
+// #include "Fonts/Custom/Kanit-BoldItalic-9-en.h"
+// #include "Fonts/Custom/Kanit-BoldItalic-12-en.h"
+// #include "Fonts/Custom/Kanit-BoldItalic-18-en.h"
+// #include "Fonts/Custom/Kanit-BoldItalic-24-en.h"
+
+// #include "Fonts/Custom/Kanit-BoldItalic-9-th.h"
+// #include "Fonts/Custom/Kanit-BoldItalic-12-th.h"
+// #include "Fonts/Custom/Kanit-BoldItalic-18-th.h"
+// #include "Fonts/Custom/Kanit-BoldItalic-24-th.h"
 
 #endif
 

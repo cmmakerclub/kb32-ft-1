@@ -478,7 +478,37 @@
 #define CF_S24 &Satisfy_24
 #define CF_Y32 &Yellowtail_32
 // Call up Thai custom fonts
-#define CF_TH_R_14_TH &THSarabun14pt7b
+//#define CF_TH_R_14_TH &THSarabun14pt7b
+// Sarabun Regular
+#define CF_TH_R_08_EN &ENSarabunNew8pt7b
+#define CF_TH_R_08_TH &THSarabunNew8pt8b
+#define CF_TH_R_09_EN &ENSarabunNew9pt7b
+#define CF_TH_R_09_TH &THSarabunNew9pt8b
+#define CF_TH_R_10_EN &ENSarabunNew10pt7b
+#define CF_TH_R_10_TH &THSarabunNew10pt8b
+#define CF_TH_R_12_EN &ENSarabunNew12pt7b
+#define CF_TH_R_12_TH &THSarabunNew12pt8b
+#define CF_TH_R_14_EN &ENSarabunNew14pt7b
+#define CF_TH_R_14_TH &THSarabunNew14pt8b
+#define CF_TH_R_16_EN &ENSarabunNew16pt7b
+#define CF_TH_R_16_TH &THSarabunNew16pt8b
+#define CF_TH_R_18_EN &ENSarabunNew18pt7b
+#define CF_TH_R_18_TH &THSarabunNew18pt8b
+// Sarabun Bold
+#define CF_TH_B_08_EN &ENSarabunNewBold8pt7b
+#define CF_TH_B_08_TH &THSarabunNewBold8pt8b
+#define CF_TH_B_09_EN &ENSarabunNewBold9pt7b
+#define CF_TH_B_09_TH &THSarabunNewBold9pt8b
+#define CF_TH_B_10_EN &ENSarabunNewBold10pt7b
+#define CF_TH_B_10_TH &THSarabunNewBold10pt8b
+#define CF_TH_B_12_EN &ENSarabunNewBold12pt7b
+#define CF_TH_B_12_TH &THSarabunNewBold12pt8b
+#define CF_TH_B_14_EN &ENSarabunNewBold14pt7b
+#define CF_TH_B_14_TH &THSarabunNewBold14pt8b
+#define CF_TH_B_16_EN &ENSarabunNewBold16pt7b
+#define CF_TH_B_16_TH &THSarabunNewBold16pt8b
+#define CF_TH_B_18_EN &ENSarabunNewBold18pt7b
+#define CF_TH_B_18_TH &THSarabunNewBold18pt8b
 // Kanit Regular
 #define CF_KN_R_09_EN &Kanit_Regular9pt7b
 #define CF_KN_R_09_TH &Kanit_Regular9pt8b
@@ -497,25 +527,26 @@
 #define CF_KN_B_18_TH &Kanit_Bold18pt8b
 #define CF_KN_B_24_EN &Kanit_Bold24pt7b
 #define CF_KN_B_24_TH &Kanit_Bold24pt8b
+
 // Kanit Bold Italic
-#define CF_KN_BI_09_EN &Kanit_BoldItalic9pt7b
-#define CF_KN_BI_09_TH &Kanit_BoldItalic9pt8b
-#define CF_KN_BI_12_EN &Kanit_BoldItalic12pt7b
-#define CF_KN_BI_12_TH &Kanit_BoldItalic12pt8b
-#define CF_KN_BI_18_EN &Kanit_BoldItalic18pt7b
-#define CF_KN_RI_18_TH &Kanit_BoldItalic18pt8b
-#define CF_KN_BI_24_EN &Kanit_BoldItalic24pt7b
-#define CF_KN_BI_24_TH &Kanit_BoldItalic24pt8b
-// Kanit Italic
-//Kanit_Italic9pt7b
-#define CF_KN_I_09_EN &Kanit_Italic9pt7b
-#define CF_KN_I_09_TH &Kanit_Italic9pt8b
-#define CF_KN_I_12_EN &Kanit_Italic12pt7b
-#define CF_KN_I_12_TH &Kanit_Italic12pt8b
-#define CF_KN_I_18_EN &Kanit_Italic18pt7b
-#define CF_KN_I_18_TH &Kanit_Italic18pt8b
-#define CF_KN_I_24_EN &Kanit_Italic24pt7b
-#define CF_KN_I_24_TH &Kanit_Italic24pt8b
+// #define CF_KN_BI_09_EN &Kanit_BoldItalic9pt7b
+// #define CF_KN_BI_09_TH &Kanit_BoldItalic9pt8b
+// #define CF_KN_BI_12_EN &Kanit_BoldItalic12pt7b
+// #define CF_KN_BI_12_TH &Kanit_BoldItalic12pt8b
+// #define CF_KN_BI_18_EN &Kanit_BoldItalic18pt7b
+// #define CF_KN_RI_18_TH &Kanit_BoldItalic18pt8b
+// #define CF_KN_BI_24_EN &Kanit_BoldItalic24pt7b
+// #define CF_KN_BI_24_TH &Kanit_BoldItalic24pt8b
+// // Kanit Italic
+// //Kanit_Italic9pt7b
+// #define CF_KN_I_09_EN &Kanit_Italic9pt7b
+// #define CF_KN_I_09_TH &Kanit_Italic9pt8b
+// #define CF_KN_I_12_EN &Kanit_Italic12pt7b
+// #define CF_KN_I_12_TH &Kanit_Italic12pt8b
+// #define CF_KN_I_18_EN &Kanit_Italic18pt7b
+// #define CF_KN_I_18_TH &Kanit_Italic18pt8b
+// #define CF_KN_I_24_EN &Kanit_Italic24pt7b
+// #define CF_KN_I_24_TH &Kanit_Italic24pt8b
 /*
   // Original Adafruit_GFX "Free Fonts"
   #include <Fonts/GFXFF/TomThumb.h>  // TT1

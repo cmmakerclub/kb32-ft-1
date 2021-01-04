@@ -165,7 +165,7 @@ module.exports = function (Blockly) {
 		var background_color = rgbto16bit(value_bColor);
 		var code =
 			`
-  tft.setUTF8Font(CF_KN_${value_fonts}_EN, CF_KN_${value_fonts}_TH, NULL);
+  tft.setUTF8Font(CF_${value_fonts}_EN, CF_${value_fonts}_TH, NULL);
   tft.setTextColor(0x${text_color}, 0x${background_color});
   tft.drawUTF8String(${value_text}, ${value_x}, ${value_y}, GFXFF);
 	`;
