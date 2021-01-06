@@ -19,7 +19,7 @@ module.exports = function (Blockly) {
 
 	Blockly.JavaScript['sensor_tempmpu6050'] = function (block) {
 		return [
-			'(float)mpu.Read(' + 0 + ',' + 0 + ',' + 1 + ')/100',
+			'(float)mpu.Read(' + 0 + ',' + 0 + ',' + 1 + ')/10',
 			Blockly.JavaScript.ORDER_ATOMIC
 		];
 	};

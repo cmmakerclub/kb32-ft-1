@@ -11,6 +11,8 @@ module.exports = {
           xml: `<sep gap="32"></sep><label text="LCD TFT Select Mode" web-class="headline"></label>`
         },
         "tft_display_selectMode0",
+        "tft_display_setcolorText",
+        "tft_display_setcolorBg",
         {
           xml: `<sep gap="32"></sep><label text="LED Matrix 16x8" web-class="headline"></label>`
         },
@@ -215,7 +217,7 @@ module.exports = {
         },
         "tft_display_setRotation",
         "tft_display_fillScreen",
-        'basic_TFT_setFonts',
+        //'basic_TFT_setFonts',
         {
           xml:
             `<block type="tft_display_print">
@@ -361,10 +363,10 @@ module.exports = {
           xml: `<sep gap="32"></sep><label text="Gyroscope (°/s)" web-class="headline"></label>`
         },
         "sensor_gyrompu6050",
-        {
-          xml: `<sep gap="32"></sep><label text="Temperature (°C)" web-class="headline"></label>`
-        },
-        "sensor_tempmpu6050",
+        // {
+        //   xml: `<sep gap="32"></sep><label text="Temperature (°C)" web-class="headline"></label>`
+        // },
+        // "sensor_tempmpu6050",
         {
           xml: `<sep gap="32"></sep><label text="Angle of Rotation (°)" web-class="headline"></label>`
         },

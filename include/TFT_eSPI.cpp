@@ -235,6 +235,38 @@ void TFT_eSPI::setmode(uint8_t mode)
 }
 
 /***************************************************************************************
+** Function name:           Set text Color
+** Description:             Included for backwards compatibility
+***************************************************************************************/
+void TFT_eSPI::setcolorText(uint16_t colortext)
+{
+    //Wire.begin();
+    Wire.beginTransmission(0x70);
+    delayMicroseconds(1);
+    Wire.write(0x04);
+    Wire.write(colortext >> 8); // sends one byte
+    Wire.write(colortext);      // sends one byte
+    Wire.endTransmission();
+    Serial.println("LED Matrix Mode --> color text change");
+}
+
+/***************************************************************************************
+** Function name:           Set text Color
+** Description:             Included for backwards compatibility
+***************************************************************************************/
+void TFT_eSPI::setcolorBg(uint16_t colorbg)
+{
+    //Wire.begin();
+    Wire.beginTransmission(0x70);
+    delayMicroseconds(1);
+    Wire.write(0x03);
+    Wire.write(colorbg >> 8); // sends one byte
+    Wire.write(colorbg);      // sends one byte
+    Wire.endTransmission();
+    Serial.println("LED Matrix Mode --> color background change");
+}
+
+/***************************************************************************************
 ** Function name:           TFT_eSPI
 ** Description:             Constructor , we must use hardware SPI pins
 ***************************************************************************************/

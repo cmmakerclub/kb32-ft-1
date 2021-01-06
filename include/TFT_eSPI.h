@@ -798,6 +798,8 @@ class TFT_eSPI : public Print
 {
 public:
   void setmode(uint8_t mode);
+  void setcolorText(uint16_t colortext);
+  void setcolorBg(uint16_t colorbg);
 
   TFT_eSPI(int16_t _W = TFT_WIDTH, int16_t _H = TFT_HEIGHT);
 

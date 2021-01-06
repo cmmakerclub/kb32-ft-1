@@ -19,7 +19,7 @@ module.exports = function (Blockly) {
 
 				]), 'OUTPUT')
 				.appendField("Axis");
-			this.setOutput(true, 'Number');
+			this.setOutput(true, ["int16_t", "Number"]);
 			this.setInputsInline(true);
 			this.setPreviousStatement(null);
 			this.setNextStatement(null);
@@ -41,7 +41,7 @@ module.exports = function (Blockly) {
 
 				]), 'OUTPUT')
 				.appendField("Axis");
-			this.setOutput(true, 'Number');
+			this.setOutput(true, ["int16_t", "Number"]);
 			this.setInputsInline(true);
 			this.setPreviousStatement(null);
 			this.setNextStatement(null);

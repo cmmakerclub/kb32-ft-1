@@ -19,6 +19,32 @@ module.exports = function (Blockly) {
     return code;
   };
 
+  Blockly.JavaScript["tft_display_setcolorText"] = function (block) {
+    let color = block.getFieldValue("COLOR");
+    color = color.replace("#", "0x");
+    let sourceColor = parseInt(color, 16);
+    let red = (sourceColor & 0x00FF0000) >> 16;
+    let green = (sourceColor & 0x0000FF00) >> 8;
+    let blue = sourceColor & 0x000000FF;
+    let out = (red >> 3 << 11) + (green >> 2 << 5) + (blue >> 3);
+    out = out.toString(16);
+    var code = "tft.setcolorText(0x" + out + ");\n";
+    return code;
+  };
+
+  Blockly.JavaScript["tft_display_setcolorBg"] = function (block) {
+    let color = block.getFieldValue("COLOR");
+    color = color.replace("#", "0x");
+    let sourceColor = parseInt(color, 16);
+    let red = (sourceColor & 0x00FF0000) >> 16;
+    let green = (sourceColor & 0x0000FF00) >> 8;
+    let blue = sourceColor & 0x000000FF;
+    let out = (red >> 3 << 11) + (green >> 2 << 5) + (blue >> 3);
+    out = out.toString(16);
+    var code = "tft.setcolorBg(0x" + out + ");\n";
+    return code;
+  };
+
   Blockly.JavaScript["i2c128x64_create_image"] = function (block) {
     var dataurl = block.inputList[1].fieldRow["0"].src_;
     var image = nativeImage.createFromDataURL(dataurl);

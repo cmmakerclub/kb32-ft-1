@@ -76,6 +76,35 @@ module.exports = function (Blockly) {
       }
     };
 
+    Blockly.Blocks["tft_display_setcolorText"] = {
+      init: function () {
+        this.appendDummyInput()
+          // .appendField(new Blockly.FieldImage("https://www.flaticon.com/premium-icon/icons/svg/1163/1163412.svg", 20, 20, "*"))
+          .appendField("display SetcolorText:")
+          .appendField(new Blockly.FieldColour("#FF0000"), "COLOR");
+        this.setPreviousStatement(true, null);
+        this.setNextStatement(true, null);
+        this.setColour(360);
+        this.setTooltip("");
+        this.setHelpUrl("");
+      }
+    };
+
+    Blockly.Blocks["tft_display_setcolorBg"] = {
+      init: function () {
+        this.appendDummyInput()
+          // .appendField(new Blockly.FieldImage("https://www.flaticon.com/premium-icon/icons/svg/1163/1163412.svg", 20, 20, "*"))
+          .appendField("display SetcolorBackground:")
+          .appendField(new Blockly.FieldColour("#000000"), "COLOR");
+        this.setPreviousStatement(true, null);
+        this.setNextStatement(true, null);
+        this.setColour(360);
+        this.setTooltip("");
+        this.setHelpUrl("");
+      }
+    };
+
+
     Blockly.Blocks["i2c128x64_create_image"] = {
       init: function () {
         this.appendDummyInput()
@@ -353,7 +382,7 @@ module.exports = function (Blockly) {
 			this.setInputsInline(true);
 			this.setPreviousStatement(true, null);
 			this.setNextStatement(true, null);
-			this.setColour(160);
+			this.setColour(230);
 			this.setTooltip("display thai fonts");
 			this.setHelpUrl("");
 		}

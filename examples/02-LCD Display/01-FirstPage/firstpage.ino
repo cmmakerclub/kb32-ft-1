@@ -1,71 +1,57 @@
 #include <Arduino.h>
+#include <vector>
 #include <WiFi.h>
-#include <WiFiClient.h>
-#include <WiFiAP.h>
-#include <WebServer.h>
 #include <Wire.h>
-#include <SPI.h>
-//#### Screen SETUP ######
-#include <TFT_eSPI.h>
+#include "SPI.h"
+#include "Adafruit_GFX.h"  //for matrix led
+#include "Adafruit_LEDBackpack.h"
+
+#include "KB_initBoard.h"
+#include "KB_music.h"
+#include "KB_LDR.h"
+#include "KB_LM73.h"
+#include "KB_ht16k33.h"
+#include "MCP7941x.h"
+#include "Kalman.h"
+#include "TFT_eSPI.h"  //for matrix led
+
 TFT_eSPI tft = TFT_eSPI();
-//###### MPU SETUP #######
-#include "MPU9250.h"
-#include "quaternionFilters.h"
-MPU9250 IMU;
-//###### RTC SETUP #######
-#include "pcf8563.h"
-PCF8563_Class rtc;
-//###### ADC SETUP #######
-#include "esp_adc_cal.h"
-//########################
+MCP7941x rtc = MCP7941x();
+Kalman mpu;
+KB_board board = KB_board();
+KB_music music = KB_music();
+KB_LDR ldr = KB_LDR();
+KB_LM73 lm73 = KB_LM73();
+KB_8x16Matrix matrix = KB_8x16Matrix();
+
+typedef int Number;
+typedef int Boolean;
+using namespace std;
 
 int i;
 
 void setup() {
-  Wire1.begin(SENSOR_SDA, SENSOR_SCL);
-  SPI.begin(_TFT_SCLK, _TFT_MISO, _TFT_MOSI, _TFT_CS);
+  board.begin();
+  music.begin();
+  lm73.begin();
+  matrix.displayBegin();
+  ldr.begin();
+  mpu.begin();
 
-  pinMode(LED_PIN, OUTPUT);
-  pinMode(TP_PIN_PIN, INPUT);
-  pinMode(TP_PWR_PIN, PULLUP);
-  digitalWrite(TP_PWR_PIN, HIGH);
-  pinMode(CHARGE_PIN, INPUT_PULLUP);
-
-  rtc.begin(Wire1);
-  IMU.begin();
-
-  ledcAttachPin(_TFT_BL, BACKLIGHT_CHANNEL);
-  ledcSetup(BACKLIGHT_CHANNEL, 12000, 8);
-  ledcWrite(BACKLIGHT_CHANNEL, 128);
-
-  tft.init();
-  tft.setRotation(1);
-  tft.setTextSize(1);
-  tft.setSwapBytes(true);
-  tft.fillScreen(0xffff);
+  tft.setmode(1);
 }
 void loop() {
   tft.fillScreen(0xffff);
+  // tft.setTextFont(GLCD);
   tft.setTextSize(2);
   tft.setCursor(5, 5);
   tft.setTextColor(0xf800);
-  tft.println(String(String("Test Display")));
-  tft.setTextSize(1);
-  tft.setCursor(5, 30);
+  tft.println(String("Test Display"));
+  // tft.setTextFont(GLCD);
+  tft.setTextSize(2);
+  tft.setCursor(40, 40);
   tft.setTextColor(0x0);
-  tft.println(String(String("TTGO T-Wristband")));
-  tft.setTextSize(1);
-  tft.setCursor(5, 40);
-  tft.setTextColor(0x0);
-  tft.println(String(String("https://kbide.org")));
-  tft.setTextSize(1);
-  tft.setCursor(5, 50);
-  tft.setTextColor(0x0);
-  tft.println(String(String("https://thai-maker.com")));
-  tft.setTextSize(1);
-  tft.setCursor(5, 60);
-  tft.setTextColor(0x0);
-  tft.println(String(String("powered by KB IDE")));
+  tft.println(String("KB32-FT"));
   delay(2000);
   tft.fillScreen(0xffff);
   for (i = 0; i <= 80; i += 5) {
