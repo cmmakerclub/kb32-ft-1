@@ -187,7 +187,9 @@ void loop() {
     Serial.print(tmp2);
     Serial.print(",");
     Serial.println(tmp3);
+    digitalWrite(KB_USB, 1);
   }
   music.tone(2093, 100);
+  digitalWrite(KB_USB, 0);
   delay(100);
 }

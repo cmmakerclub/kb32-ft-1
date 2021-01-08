@@ -28,7 +28,10 @@ module.exports = function (Blockly) {
     let blue = sourceColor & 0x000000FF;
     let out = (red >> 3 << 11) + (green >> 2 << 5) + (blue >> 3);
     out = out.toString(16);
-    var code = "tft.setcolorText(0x" + out + ");\n";
+    var code =  `tft.setcolorText(0x${out}); 
+                matrix.printText(0, 0, String(String("  ")));
+                delay(20);
+                `;
     return code;
   };
 
@@ -41,9 +44,13 @@ module.exports = function (Blockly) {
     let blue = sourceColor & 0x000000FF;
     let out = (red >> 3 << 11) + (green >> 2 << 5) + (blue >> 3);
     out = out.toString(16);
-    var code = "tft.setcolorBg(0x" + out + ");\n";
+    var code =  `tft.setcolorBg(0x${out}); 
+                matrix.printText(0, 0, String(String("  ")));
+                delay(20);
+                `;    
     return code;
   };
+
 
   Blockly.JavaScript["i2c128x64_create_image"] = function (block) {
     var dataurl = block.inputList[1].fieldRow["0"].src_;

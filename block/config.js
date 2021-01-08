@@ -408,6 +408,18 @@ module.exports = {
         "esp32_servo_read_micros"
       ]
     },
+    // {
+    //   name: "MQTT",
+    //   color: "230",
+    //   icon: `file:///${dirIcon}/static/icons/mqtt.png`,
+    //   blocks: [
+    //      "mqtt_connector_begin",
+    //      "on_prepare_data",
+    //      "on_message",
+    //      "append_value",
+    //      "mqtt_connect"
+    //   ]
+    // },
     {
       name: "GPIO",
       color: "30",
