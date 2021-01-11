@@ -35,5 +35,5 @@
 
 ---
 
-* [แก้ปัญหาไดร์เวอร์ FTDI \(COMPORT\)](ftdi-comport.md)
+* [แก้ปัญหาไดร์เวอร์ FTDI \(กรณีไม่เจอ COMPORT\)](ftdi-comport.md)
 
