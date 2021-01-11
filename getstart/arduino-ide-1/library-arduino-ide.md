@@ -1,4 +1,4 @@
-# ติดตั้ง Library Arduino IDE
+# KB32-FT Library Install
 
 ## ขั้นตอนการติดตั้งโปรแกรมตัวอย่าง Library <a id="&#xE02;&#xE31;&#xE49;&#xE19;&#xE15;&#xE2D;&#xE19;&#xE01;&#xE32;&#xE23;&#xE15;&#xE34;&#xE14;&#xE15;&#xE31;&#xE49;&#xE07;&#xE42;&#xE1B;&#xE23;&#xE41;&#xE01;&#xE23;&#xE21;&#xE15;&#xE31;&#xE27;&#xE2D;&#xE22;&#xE48;&#xE32;&#xE07;-library"></a>
 

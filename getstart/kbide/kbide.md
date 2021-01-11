@@ -1,4 +1,4 @@
-# การติดตั้งโปรแกรม KBIDE
+# KB32-FT Board Install
 
 ## Getting Super Powers
 
