@@ -33,3 +33,7 @@
 
 * [1.LED Matrix](learn-with-arduinoide/1.led-matrix.md)
 
+---
+
+* [แก้ปัญหาไดร์เวอร์ FTDI \(COMPORT\)](ftdi-comport.md)
+
