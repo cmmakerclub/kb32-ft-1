@@ -64,6 +64,8 @@ Download Boards ESP32
 
 ![](../../.gitbook/assets/image%20%2812%29.png)
 
+
+
 ซึ่ง หมวดของ ESP8266 Modules นั้นจะมีบอร์ดให้เลือกใช้งานอยู่ด้วยกันหลายบอร์ด ที่มีจำหน่ายทั่ว ๆ ไป เช่น
 
 * ESP32 Dev Module
