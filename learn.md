@@ -4,7 +4,7 @@
 
 
 
-![image](https://ff.lnwfile.com/_/ff/_raw/ax/ox/do.png)
+![](https://ff.lnwfile.com/_/ff/_raw/ax/ox/do.png)
 
 ![image](https://ff.lnwfile.com/_/ff/_raw/jl/jc/xw.png)
 
