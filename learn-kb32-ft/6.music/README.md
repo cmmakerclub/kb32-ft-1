@@ -2,7 +2,7 @@
 
 ![](../../.gitbook/assets/image%20%2877%29.png)
 
-![](../../.gitbook/assets/image%20%28142%29.png)
+![](../../.gitbook/assets/image%20%28143%29.png)
 
 {% page-ref page="01-buzzermusic.md" %}
 

@@ -1,4 +1,4 @@
 # 02-MQTT Connector \(Install Plugin MQTT connector First\)
 
-![](../../.gitbook/assets/image%20%28126%29.png)
+![](../../.gitbook/assets/image%20%28127%29.png)
 
