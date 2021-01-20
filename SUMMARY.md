@@ -45,7 +45,6 @@
   * [01-SimpleServo](learn-kb32-ft/5.servo-motor/01-simpleservo.md)
   * [02-ServoPotentiometer](learn-kb32-ft/5.servo-motor/02-servopotentiometer.md)
   * [03-MultipleServos](learn-kb32-ft/5.servo-motor/03-multipleservos.md)
-  * [04-SimpleServoAngles](learn-kb32-ft/5.servo-motor/04-simpleservoangles.md)
 * [6.Music](learn-kb32-ft/6.music/README.md)
   * [01-BuzzerMusic](learn-kb32-ft/6.music/01-buzzermusic.md)
 * [7.GPIO](learn-kb32-ft/7.gpio/README.md)
