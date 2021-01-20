@@ -6,6 +6,8 @@
 ### [คลิกดาวน์โหลดโปรแกรมKBIDE](https://kbide.org/)
 {% endhint %}
 
+![](../../.gitbook/assets/image%20%2864%29.png)
+
 * [x] **เลือกระบบปฎิบัติการ**
 
 ![](../../.gitbook/assets/image%20%2824%29.png)

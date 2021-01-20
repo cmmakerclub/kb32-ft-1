@@ -54,16 +54,17 @@
 * [8.Time](learn-kb32-ft/8.time/README.md)
   * [01-Clock](learn-kb32-ft/8.time/01-clock.md)
 * [9.IoT](learn-kb32-ft/9.iot/README.md)
-  * [01-MQTT Advance \(Pending...\)](learn-kb32-ft/9.iot/01-mqtt-advance-pending....md)
+  * [01-MQTT Example](learn-kb32-ft/9.iot/01-mqtt-advance-pending....md)
   * [02-MQTT Connector \(Install Plugin MQTT connector First\)](learn-kb32-ft/9.iot/02-mqtt-connector-install-plugin-mqtt-connector-first.md)
   * [03-Blynk \(Install Plugin Blynk First\)](learn-kb32-ft/9.iot/03-blynk-install-plugin-blynk-first.md)
 * [10.Factory Test](learn-kb32-ft/10.factory-test/README.md)
-  * [Untitled](learn-kb32-ft/10.factory-test/untitled.md)
+  * [01-Demo Factory Test](learn-kb32-ft/10.factory-test/untitled.md)
 
 ## learn with ArduinoIDE
 
 * [1.LED Matrix](learn-with-arduinoide/1.led-matrix.md)
 * [2.LCD Display](learn-with-arduinoide/2.lcd-display.md)
+* [Machine Learning](learn-with-arduinoide/machine-learning.md)
 
 ---
 
