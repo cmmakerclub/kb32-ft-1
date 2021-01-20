@@ -1,4 +1,4 @@
-# KBIDE Install Board
+# KBIDE Install
 
 ## 1.ดาวน์โหลดโปรแกรม KBIDE
 

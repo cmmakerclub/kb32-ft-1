@@ -4,7 +4,7 @@
 
 ## Prepare IDE <a id="getstart"></a>
 
-* [KBIDE Install Board](getstart/kbide/README.md)
+* [KBIDE Install](getstart/kbide/README.md)
   * [KB32-FT Board Install](getstart/kbide/kbide.md)
   * [Plugins Add-on](getstart/kbide/plugins-add-on.md)
 * [Arduino IDE Install](getstart/arduino-ide-1/README.md)
