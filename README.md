@@ -1,6 +1,6 @@
 # KB32-FT
 
-สั่งซื้อได้ที่ : [https://www.aiiotshop.com/p/114/](https://www.aiiotshop.com/p/114)
+สั่งซื้อได้ที่ : [https://www.aiiotshop.com/p/114](https://www.aiiotshop.com/p/114)
 
 {% embed url="https://youtu.be/L3860Z2SvAM" %}
 
