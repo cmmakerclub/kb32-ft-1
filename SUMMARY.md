@@ -13,6 +13,7 @@
 
 ---
 
+* [3D Case Install](3d-case-install.md)
 * [Learn KB32-FT](learn.md)
 
 ## learn with KBIDE <a id="learn-kb32-ft"></a>
