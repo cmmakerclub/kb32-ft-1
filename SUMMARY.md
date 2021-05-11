@@ -1,6 +1,7 @@
 # Table of contents
 
 * [KB32-FT](README.md)
+* [Manual Drone Kit](manual-drone-kit.md)
 
 ## Prepare IDE <a id="getstart"></a>
 
