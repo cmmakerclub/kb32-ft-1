@@ -6,7 +6,7 @@
 
 * ติดตั้ง App RemoteXY จาก app store แบบฟรีตามรูป
 
-![](../../.gitbook/assets/image%20%28167%29.png)
+![](../../.gitbook/assets/image%20%28169%29.png)
 
 ### **ขั้นตอนที่ 2**
 
@@ -26,17 +26,17 @@
 SSID : Drone  Pass : 12345678
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%28159%29.png)
+![](../../.gitbook/assets/image%20%28160%29.png)
 
 ### **ขั้นตอนที่ 3**
 
 * เปิด App RemoteXY จะปรากฏหน้าต่างขอสิทธ์เข้าถึง Bluetooth ได้แต่เราใช้ Wifi ขั้นตอนนี้ข้ามได้เลย
 
-![](../../.gitbook/assets/image%20%28152%29.png)
+![](../../.gitbook/assets/image%20%28153%29.png)
 
 * หลังจากนั้นจะปรากฏหน้าต่างว่างเปล่าตามรูป และ Add new device
 
-![](../../.gitbook/assets/image%20%28162%29.png)
+![](../../.gitbook/assets/image%20%28164%29.png)
 
 ### **ขั้นตอนที่ 4**
 
@@ -46,7 +46,7 @@ SSID : Drone  Pass : 12345678
 การเชื่อมต่อแบบ Wi-Fi บน IOS ยังทำไม่ได้เนื่องจากมีการ Update policy จึงใช้การเชื่อมต่อผ่าน IP แทน
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%28154%29.png)
+![](../../.gitbook/assets/image%20%28155%29.png)
 
 ### **ขั้นตอนที่ 5**
 
@@ -56,17 +56,17 @@ SSID : Drone  Pass : 12345678
 192.168.4.1
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%28160%29.png)
+![](../../.gitbook/assets/image%20%28161%29.png)
 
 ### **ขั้นตอนที่ 6**
 
 * จากนั้น App จะ Load config หน้าต่าง UI ออกมา เป็น Joystick ควบคุม Drone ของเรานั่นเอง
 
-![](../../.gitbook/assets/image%20%28155%29.png)
+![](../../.gitbook/assets/image%20%28156%29.png)
 
 #### หน้าตา UI Joystick ควบคุม Drone ของ App Android เดียวเราจะมาเรียนรู้วิธีควบคุมกันต่อใน หน้าถัดไป...
 
-![](../../.gitbook/assets/image%20%28150%29.png)
+![](../../.gitbook/assets/image%20%28151%29.png)
 
 
 

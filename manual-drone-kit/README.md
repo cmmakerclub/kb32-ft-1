@@ -28,7 +28,7 @@
 1. **สาย รับ-ส่ง ข้อมูล Micro USB x 1 เส้น**
 2. **พวงกุญแจคล้องสาย x 1 เส้น**
 3. **แบตเตอรี่ ลิเธียมโพลิเมอร์ 3.7V 900mAh x 1 ก้อน**
-4. **หัวชาร์จ แบตเตอรี่ ลิเธียมโพลิเมอร์ 3.7V x 1 ชุด**
+4. **หัวชาร์จ แบตเตอรี่ ลิเธียมโพลิเมอร์ 3.7V x 1 ชุด \(ใช้กับ Adapter USB ขนาด 5V / 1A ขึ้นไป\)**
 
 ![](https://lh4.googleusercontent.com/3r44U9PEdZ_fH0v6yDjYuEwHDSXNK7VUysX2sMpu4zPLzs4DW8NGKdP9HjOKzZoy32BIXsMHe6K83Kj1U__1pCHCOUOvfdogxZD0G9CoXQW1A_gQrPKJVc29HfThSPlA1hg2VLUy)
 
@@ -82,7 +82,7 @@
 
 ![](https://lh3.googleusercontent.com/ybqGUWRw_wbc-xp--dyzN0aSY1KLlyjUyQTgIdK6xb8Cr3xLenVW2Ngzcy1zjqzVgoFRSuQKTsiswcwqUtZh6YiMfzWTbO45RgxCDUgNgzv-Ws_uIIURY5ZaCSUeKa62ABK4-IOz)
 
-![](../.gitbook/assets/image%20%28163%29.png)
+![](../.gitbook/assets/image%20%28165%29.png)
 
 ![](https://lh4.googleusercontent.com/ctZga3qEn8WOc2xI0Ey0iZiBRFhSFvda7M05xOwMd2wme8uJvYx24WZFkHbBLUUKHyadW_jnP1uYbSKcj7mNhmH13NKM8RXd6Wo5dDqG8-tBG7YwCCh_CyJ_vnlkBtcitfJtzi-c)
 
@@ -110,7 +110,7 @@
 
 * **ตำแหน่งใบพัด Drone  ใบพัดสีขาวคือตำแหน่งด้านหน้า และตรวจสอบ Label  A และ B** 
 
-![](../.gitbook/assets/image%20%28148%29.png)
+![](../.gitbook/assets/image%20%28149%29.png)
 
 ## **ภาพตัวอย่าง Drone Kit KB32-FT หลังประกอบเสร็จ**
 
