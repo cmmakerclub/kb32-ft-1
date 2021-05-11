@@ -6,6 +6,7 @@
   * [Remote XY Setting](manual-drone-kit/remote-xy-setting/README.md)
     * [Android Install App and Connect Drone](manual-drone-kit/remote-xy-setting/android-install-app.md)
     * [IOS Install App and Connect Drone](manual-drone-kit/remote-xy-setting/ios-install-app.md)
+  * [Remote XY Control](manual-drone-kit/remote-xy-control.md)
 
 ## Prepare IDE <a id="getstart"></a>
 
