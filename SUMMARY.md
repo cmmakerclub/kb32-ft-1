@@ -2,11 +2,11 @@
 
 * [KB32-FT](README.md)
 * [3D Case Install](3d-case-install.md)
-* [Drone Kit](drone-kit/README.md)
-  * [Manual Drone Kit](drone-kit/manual-drone-kit/README.md)
-    * [Remote XY Setting](drone-kit/manual-drone-kit/remote-xy-setting/README.md)
-      * [Android Install App and Connect Drone](drone-kit/manual-drone-kit/remote-xy-setting/android-install-app.md)
-      * [IOS Install App and Connect Drone](drone-kit/manual-drone-kit/remote-xy-setting/ios-install-app.md)
+* [Drone Kit](manual-drone-kit/README.md)
+  * [Manual Drone Kit](manual-drone-kit/manual-drone-kit/README.md)
+    * [Remote XY Setting](manual-drone-kit/manual-drone-kit/remote-xy-setting/README.md)
+      * [Android Install App and Connect Drone](manual-drone-kit/manual-drone-kit/remote-xy-setting/android-install-app.md)
+      * [IOS Install App and Connect Drone](manual-drone-kit/manual-drone-kit/remote-xy-setting/ios-install-app.md)
 
 ## Prepare IDE <a id="getstart"></a>
 
